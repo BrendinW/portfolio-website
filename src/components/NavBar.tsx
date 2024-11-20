@@ -7,7 +7,7 @@ const pages = [
 
 export default function NavBar() {
 	const listPages = pages.map(page =>
-		<li>
+		<li key={page.id}>
 			<a href={page.href}>
 				{page.title}
 			</a>
