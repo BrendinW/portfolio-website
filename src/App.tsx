@@ -1,18 +1,16 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import NavBar from './NavBar.tsx'
+import Footer from './Footer.tsx'
 import './App.css'
-
-const pages = [
-  { title: 'Home', link: 'temp', id: 1 },
-  { title: 'Technical Projects', link: 'temp', id: 2 },
-];
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <NavBar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -33,6 +31,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Footer />
     </>
   )
 }
