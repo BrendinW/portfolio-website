@@ -1,5 +1,28 @@
+@font-face {
+  font-family: "Arco";
+  src: url("ARCO.ttf");
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+a:hover {
+  color:burlywood;
+}
+
 ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
+}
+
+.menu-option {
+  font-size: 7.5vh;
+  font-family: "Arco";
+  text-align: right;
+  position: relative;
+  margin-bottom: 75px;
+  right: 5%;
 }
