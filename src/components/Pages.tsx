@@ -8,7 +8,7 @@ const pages = [
 
 export default function Pages() {
 	const listPages = pages.map(page =>
-		<li className = 'menu-option' key={page.id}>
+		<li className='menu-option' key={page.id}>
 			<a href={page.href}>
 				{page.title}
 			</a>
