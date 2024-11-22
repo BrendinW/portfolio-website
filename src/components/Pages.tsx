@@ -1,7 +1,5 @@
 import './list.css'
 
-// Test comment
-
 const pages = [
 	{ title: 'About Me', href: 'temp', id: 1 },
 	{ title: 'Portfolio', href: 'temp', id: 2 },
